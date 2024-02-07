@@ -10,11 +10,9 @@ function toggleMenu() {
   
   if (counter % 2 == 0) {
     Menu.style.width = "60%";
-    menuImg.src = "cancel.png";
+    menuImg.src = "cancel.webp";
   } else {
     Menu.style.width = "0%";
-    menuImg.src = "menu.png";
+    menuImg.src = "menu.webp";
   }
-} 
-
-console.log(Menu.style.transition);
+}
